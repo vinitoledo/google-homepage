@@ -1,1 +1,1 @@
-This is Vini git Project
+The goal of the project is to mimic Google Search Engine's webpage. Nothing fancy, we will start pretty vanilla
