@@ -1,17 +1,23 @@
-body {
-    font-family: arial,sans-serif;
-    height: 100%;
-    margin: 0;
+html {
+    -webkit-appearance: none;
 }
 
+body {
+    font-family: arial,sans-serif;
+}
 
+main {
+    height: 600px;
+}
 
 nav {
     height: 20px;
 }
 
+.center{
 
-
+    margin-top: 200px;
+}
 
 .logo {
     display: block;
@@ -19,20 +25,15 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 220px;
-    
-
 }
 
 .search-form {
     width: 500px;
-    margin: auto auto;
-    
+    margin: auto auto;  
 }
 
 form {
-
-    text-align: center;
-    
+    text-align: center;  
 }
 
 input {
@@ -40,13 +41,10 @@ input {
     height: 30px;
     margin: 5px; 
     border-radius: 24px; 
-    border: 1px solid rgba(0, 0, 0, .2) 
-    ;
-    
+    border: 1px solid rgba(0, 0, 0, .2);
 }
 
 button {
-
     border-style: none;
     height: 36px;
     padding: 0 16px;
@@ -55,15 +53,17 @@ button {
     font-family: arial,sans-serif;
     border-radius: 4px;
     font-size: 14px;
-
 }
 
+button:hover{
+    border-style: ridge;
+    border-color:  gray;
+}
 
 .caption {
     text-align: center;
     grid-row-start: 3;
     grid-row-end: 4;
-
 }
 
 
@@ -78,39 +78,42 @@ a, a:visited {
     margin-top:0;
     padding: 5px;
     color: black;
-
-
 }   
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-left: 0px;
+  } 
+
 
 footer div {
     background: #f2f2f2;
     font-size: 14px;
     color:#5F6368;
-    bottom: 0;
-    left: 0;
-    
-
+    bottom: 0px;
 }
 #footer1 {
     line-height:40px;
     border-bottom: 1px solid #e4e4e4;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .footer2 {
-
-    padding-top:10px;
-    padding-bottom: 10px;
-
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
 }
 
-ul{
-    margin-left: 0px;
-}
 
 li {
     display: inline;
     margin: 3px;
+}
+
+.right-footer {
+    float:right;
 }
 
 .footer-link {
@@ -118,4 +121,5 @@ li {
 }
 .footer-link:hover{
     text-decoration: underline;
+    margin: 10px;   
 }
